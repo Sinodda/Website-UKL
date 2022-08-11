@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+
+
+/* navbar */
+
+.banner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.88)),url(guitar.jpg);
+        background-size: cover;
+        background-position: center;
+
+}
+
+.topnav{
+    width: 100% ;
+    margin: auto;
+    padding: 10px 0;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:15px;
+    background-color: #3f3d2a;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    color: #fff;
+    padding-left: 8vh;
+    font-size: 30px;
+    font-family: 'poppins';
+}
+
+.topnav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    position: relative;
+}
+
+.topnav ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase ;
+    transition: 0.3s;
+}
+
+.topnav ul li a:hover{
+      font-weight: 800;
+
+}
+
+.topnav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #FFEA11;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.topnav ul li:hover::after{
+     width: 100%;
+     
+}
+
+/* isi content pertama*/
+
+.text-box{
+    width: 50%;
+    color: #fff;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:left;
+}
+
+
+.text-box h1 {
+    width: 22%;
+    font-size: 160px;
+    /* background-color: #FFEA11; */
+    border-bottom: 20px solid #FFEA11;
+}
+
+.text-box p{margin: 30px 0 40px;
+            font-size: 15px;
+            color: #fff;
+         
+}
+
+.btn-content{
+    display: inline-block;
+    margin-top: 20px;
+    position :relative;
+    text-decoration: none;
+    color: black;
+    background-color: #FFEA11;
+    padding: 12px 34px;
+    cursor:pointer;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-content:hover{
+    border: 1px solid #fff;
+    background: none;
+    color:#fff;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+/* News section */
+
+.news{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.88)),url(konser.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+.pe{
+   width: -50%;
+   text-align: right;
+   color: #fff;
+   position: relative;
+   right: 4px;
+   top: 20%;
+   padding-right: 60px;
+}
+
+.pe h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.pe p{
+    font-size: 15px;
+}
+
+
+.btn-news{
+    display: inline-block;
+    margin-top: 20px;
+    position :relative;
+    text-decoration: none;
+    color: black;
+    background-color: #FFEA11;
+    padding: 12px 34px;
+    cursor:pointer;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ .btn-news:hover{
+    border: 1px solid #fff;
+    background: none;
+    color:#fff;
+    transition: 0.5s;
+    font-weight: 500;
+} 
